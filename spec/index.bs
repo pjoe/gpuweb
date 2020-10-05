@@ -3807,8 +3807,8 @@ enum GPUCullMode {
 dictionary GPUColorStateDescriptor {
     required GPUTextureFormat format;
 
-    GPUBlendDescriptor alphaBlend = {};
-    GPUBlendDescriptor colorBlend = {};
+    GPUBlendDescriptor alphaBlend;
+    GPUBlendDescriptor colorBlend;
     GPUColorWriteFlags writeMask = 0xF;  // GPUColorWrite.ALL
 };
 </script>
